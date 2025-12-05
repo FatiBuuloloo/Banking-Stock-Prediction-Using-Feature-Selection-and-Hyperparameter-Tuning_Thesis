@@ -3,7 +3,8 @@
 This research aims to predict stock prices by combining a Long Short-Term Memory (LSTM) model with a Genetic Algorithm (GA) for hyperparameter optimization and feature selection. The dataset includes historical stock data and technical indicators from April 2010 to April 2025.
 
 Research Procedure
-1. ## Data Collection ##: Collect historical stock prices and technical indicators covering the period April 2010 – April 2025.
+1. ## Data Collection 
+Collect historical stock prices and technical indicators covering the period April 2010 – April 2025.
 2. ## Data Preparation
 a. Perform dimensionality reduction by removing highly correlated variables to avoid redundancy.
 b. Handle missing values.
