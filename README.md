@@ -23,17 +23,8 @@ Split data using the sliding window method with the following proportions:80% tr
 5. Building the LSTM + GA Model
 
 - Design the base network architecture consisting of: 2 LSTM layers, 1 dropout layer, and 1 dense layer
-- Initialize the Genetic Algorithm population, where each individual represents:
-
-Number of neurons in LSTM Layer 1 and Layer 2
-
-Dropout rate
-
-Number of training epochs
-
-Selected feature subset
-
-c. For each individual, train the model on training data and compute its fitness based on the minimum validation loss achieved.
+- Initialize the Genetic Algorithm population, where each individual represents: Number of neurons in LSTM Layer 1 and Layer 2, Dropout rate, Number of training epochs, and Selected feature subset
+- For each individual, train the model on training data and compute its fitness based on the minimum validation loss achieved.
 
 6. Genetic Algorithm Evolution
 
@@ -45,11 +36,7 @@ The individual with the lowest validation loss is chosen as the optimal model.
 
 8. Model Evaluation
 
-Evaluate the final model using testing data with the following metrics:
-
-MAPE (Mean Absolute Percentage Error)
-
-RMSE (Root Mean Squared Error)
+Evaluate the final model using testing data with MAPE (Mean Absolute Percentage Error) and RMSE (Root Mean Squared Error)
 
 9. Stock Price Prediction
 
